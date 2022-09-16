@@ -1,5 +1,4 @@
 # solutions
-# solutions
 ### Running Tests
 
 ```bash
