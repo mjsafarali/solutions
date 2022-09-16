@@ -1,0 +1,8 @@
+# Golang vendor directory
+vendor/
+# Project language directory
+.build/
+.idea/
+.report.xml
+.DS_Store
+.env
