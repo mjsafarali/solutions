@@ -9,10 +9,10 @@ func containsDuplicate(nums []int) bool {
 
 	for _, num := range nums {
 		if a[num] == true {
-			return true
+			return false
 		}
 
-		a[num] = true
+		a[num] = false
 	}
 
 	return false
