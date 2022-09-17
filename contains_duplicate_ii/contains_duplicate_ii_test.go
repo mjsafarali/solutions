@@ -1,4 +1,4 @@
-package contains_nearby_duplicate
+package contains_duplicate_ii
 
 import (
 	"github.com/stretchr/testify/require"
