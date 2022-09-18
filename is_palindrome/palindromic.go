@@ -3,8 +3,7 @@ package palindrome
 import "strings"
 
 func isPalindrome(s string) bool {
-	ns := strings.ReplaceAll(s, " ", "")
-	ns = clean([]byte(ns))
+	ns := clean([]byte(s))
 	ns = strings.ToLower(ns)
 	if reverseString(ns) == ns {
 		return true
@@ -18,8 +17,7 @@ func clean(s []byte) string {
 	for _, b := range s {
 		if ('a' <= b && b <= 'z') ||
 			('A' <= b && b <= 'Z') ||
-			('0' <= b && b <= '9') ||
-			b == ' ' {
+			('0' <= b && b <= '9') {
 			s[j] = b
 			j++
 		}
